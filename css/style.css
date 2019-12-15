@@ -1,0 +1,319 @@
+
+
+/*============= COURSE SECTION =============*/
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 100%;
+
+}
+.btn {
+  background: red;
+  border: 1px solid red;
+  border-radius: 7px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn:hover {
+  background: rgb(126, 33, 33);
+  border: 1px solid rgb(126, 33, 33);
+}
+.btn-outline {
+  background: white;
+  color: red;
+  border: 2px solid red;
+  padding: 10px 50px;
+}
+.btn-outline:hover {
+  background: inherit;
+  border: 2px solid rgb(126, 33, 33);
+}
+/**********HEADER****************/
+header {
+  background: #f6f2f2;
+}
+nav {
+  background: #313030 !important;
+  padding: 0 16px !important;
+}
+
+a.nav-link{
+  color: #cccccc !important;
+  text-transform: uppercase;
+  font-weight: 700;
+ 
+
+}
+li.nav-item {
+  padding: 30px 20px;
+
+
+}
+li.nav-item:hover{
+  background: red !important;
+}
+.undernav button {
+  padding: 10px 50px;
+}
+.undernav {
+  margin: 120px 0;
+ 
+}
+.undernav iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.undernav h1 {
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.undernav p {
+  padding-top: 40px;
+  padding-bottom: 65px;
+}
+header {
+  padding-bottom: 1px;
+}
+/**********Portfolio****************/
+.portfolio {
+  color: #585858;
+  padding-top: 110px;
+}
+.portfolio h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.portfolio p.pp {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.port-card h3{
+padding: 20px 0;
+font-weight: 700;
+}
+.svg-inline--fa{
+  color: red;
+}
+
+.padding {
+  padding: 10px 0;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: gainsboro;
+  margin: 110px 0;
+}
+.red-line {
+  width: 130px;
+  height: 2px;
+  background: #ff3b3b;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.feature p{
+  margin: 40px 0;
+}
+.feature h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+.no-padding {
+  padding: 15px !important;
+}
+
+}
+/**********Products****************/
+.products img {
+  width: 100%;
+  margin: 0 auto;
+}
+.sort{
+
+
+  list-style: none;
+  margin-bottom: 60px;
+  
+  }
+  .sort-item{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 0 10px;
+  }
+  .sort-item:hover {
+    cursor: pointer;
+    color: red;
+  }
+@media (max-width: 768px) {
+  li.nav-item:hover{
+    background: inherit !important;
+   
+  }
+  li.nav-item a:hover {
+    color: red !important;
+  }
+  .sort {
+    flex-direction: column;
+  }
+}
+
+/*TEAM**************************/
+.team .feature h2{
+  margin-top: 140px;
+}
+
+.team .red-line{
+  margin: 0;
+  margin-bottom: 70px;
+}
+.team img {
+  width: 100%;
+}
+.face {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.face li {
+  padding-right: 20px;
+  cursor: pointer;
+  font-style: italic;
+  margin-bottom: 135px;
+}
+.face li a {
+  text-decoration: none;
+  color: black;
+}
+.face li a:hover {
+  color: red; 
+}
+
+.email {
+  margin-top: 100px;
+  padding: 150px 0;
+  background: #f5f0dd;
+}
+p.design {
+  margin-bottom: 120px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+
+}
+form.lol input {
+  width: 40%;
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+form.lol button {
+  height: 80px;
+  width: 20%;
+}
+
+.contact {
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+.contact .red-line {
+  margin: 0px;
+}
+.forms input{
+  width: 45%;
+  height: 40px;
+  background: #e5e5e5;
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 5px;
+}
+
+.text textarea {
+  width: 100%;
+  height: 250px;;
+  background: #e5e5e5;
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.contact .btn {
+  height: 70px;
+  width: 100%;
+}
+
+.info {
+  background: #2d2d2d;
+  color: #a7a7a7;
+  margin-right: -500px;
+  padding-right: 500px !important;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.info-card  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer {
+  display: flex;
+  background: black;
+  color: white;
+  width: 100%;
+  height: 100px;
+ justify-content: center;
+ align-items: center;
+}
+
+@media screen and (max-width: 1180px){
+  .undernav h1 {
+    font-size: 40px;
+  }
+  .no-padding {
+    text-align: center;
+  }
+  .info {
+    display: none;
+  }
+  .lol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  form.lol input, .btn {
+    width: 100% !important ;
+    margin: 0px 0px 10px;
+  }
+}
+
+@media  (max-width: 900px){
+  .face li {
+    margin-bottom: 0px;
+  }
+}
+
+
