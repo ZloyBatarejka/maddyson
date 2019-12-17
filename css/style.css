@@ -5,6 +5,7 @@
 * {
   font-family: 'Open Sans', sans-serif;
   max-width: 100%;
+  scroll-behavior: smooth;
 
 }
 .btn {
